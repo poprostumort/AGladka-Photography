@@ -1,0 +1,106 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "9d3d9d6ce1ec63eaa26281e6162853c9",
+      "css": "camera-alt",
+      "code": 59392,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "bf882b30900da12fca090d9796bc3030",
+      "css": "mail",
+      "code": 59393,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "ccc2329632396dc096bb638d4b46fb98",
+      "css": "mail-alt",
+      "code": 59394,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "54fad985c676a007c79c346ebaec29d6",
+      "css": "deviantart",
+      "code": 59396,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "4c1ef492f1d2c39a2250ae457cee2a6e",
+      "css": "instagram",
+      "code": 59395,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "4743b088aa95d6f3b6b990e770d3b647",
+      "css": "facebook-squared",
+      "code": 59397,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "1145676a91138011729fa2909997af66",
+      "css": "linkedin-squared",
+      "code": 59398,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "ce06b5805120d0c2f8d60cd3f1a4fdb5",
+      "css": "play",
+      "code": 59399,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "fa9a0b7e788c2d78e24cef1de6b70e80",
+      "css": "brush",
+      "code": 59400,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "8b80d36d4ef43889db10bc1f0dc9a862",
+      "css": "user",
+      "code": 59401,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "4aad6bb50b02c18508aae9cbe14e784e",
+      "css": "share",
+      "code": 59403,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "dc3f1d5b1d006f7f7b3b6295eccab9da",
+      "css": "camera",
+      "code": 59402,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "4c1f3c0b331d5f72c6a38d7bb7632675",
+      "css": "share-squared",
+      "code": 59404,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "e835d9d0f2ee39ae01b01cc6a6fa24ab",
+      "css": "play-circled2",
+      "code": 59405,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "5717236f6134afe2d2a278a5c9b3927a",
+      "css": "play-circled",
+      "code": 59406,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "6cc7af3e5b55720bcb6ef68372ce24be",
+      "css": "facebook-official",
+      "code": 59407,
+      "src": "fontawesome"
+    }
+  ]
+}

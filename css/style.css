@@ -1,15 +1,105 @@
-* {
-	box-sizing: border-box;
-}
-
-body {
+body
+{
 	background-image: url("../img/background.png");
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 !important;
 }
 
-#logo {
+#logo
+{
 	max-width: 100%;
 	max-height: 100%;
+}
+
+.container
+{
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leftcontainer
+{
+    min-height: 700px;
+    width: 418px;
+    float: left;
+}
+
+nav
+{
+    margin-left: 30px;
+    text-align: center;
+}
+
+.menutile
+{
+    width: 158px;
+    height: 158px;
+    margin: 10px;
+    background-color: #666666;
+    opacity: 0.5;
+    float: left;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.menutile > a
+{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 200%;
+    display: block;
+    width: 158px;
+    height: 158px;
+}
+
+.menutile:hover
+{
+    background-color: #484848;
+}
+
+
+
+.rightcontainer
+{
+    min-height: 700px;
+    width: 558px;
+    float: left;
+    margin: 10px;
+    background-color: #666666;
+    opacity: 0.5;
+}
+
+section
+{
+    color: #FFFFFF;
+    text-align: justify;
+    padding: 15px;
+}
+
+section > h1
+{
+    padding: 20px;
+    text-align: center;
+}
+
+.footercontainer
+{
+    width: 100%;
+    background-color: #666666;
+    opacity: 0.5;
+}
+
+footer
+{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 15px;
 }
