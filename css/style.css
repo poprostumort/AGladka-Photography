@@ -1,0 +1,15 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("../img/background.png");
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#logo {
+	max-width: 100%;
+	max-height: 100%;
+}
