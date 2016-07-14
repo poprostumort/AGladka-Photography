@@ -136,6 +136,19 @@ section > p
     cursor: pointer;
 }
 
+.formcontainer
+{
+    background: #333;
+    opacity: 0.5;
+    padding: 5px;
+}
+
+form input, textarea
+{
+    width: 90%;
+    margin: 5px 0 5px 0;
+}
+
 .footercontainer
 {
     width: 100%;

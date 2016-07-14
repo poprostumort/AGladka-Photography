@@ -79,7 +79,17 @@
                 <h1>Fotografia</h1>
                 <p>Jeżeli masz jakieś pytania, zapraszam do kontaktu przez formularz lub mailowo na moj@adres.pl
                 </p>
-                <div style="height:300px; background: #333; opacity: 0.5;">FORM PLACEHOLDER</div>
+                <div class="formcontainer">
+                    <form>
+                        <input type="text" placeholder="imie/nazwa firmy" required>
+                        <input type="text" placeholder="temat wiadomości" required>
+                        <input type="email" placeholder="Twój email" required>
+                        <textarea placeholder="wiadomość" rows="6" required>
+                        </textarea>
+                        <br>
+                        <button type="submit">Wyślij wiadomość</button>
+                    </form>
+                </div>
             </section>
         </div>
         <div style="clear: both;"></div>
