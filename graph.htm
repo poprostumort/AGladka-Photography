@@ -19,7 +19,7 @@
     -->
 
 </head>
-<body>
+<body onload="changeSlide()">
     <div class="container">
 	    <div class="leftcontainer">
 
@@ -76,14 +76,17 @@
     	</div>
         <div class="rightcontainer">
             <section>
-                <div class="sectionheader">
-                    <h1>Zdjęcia, grafika, UX design...</h1>
-                    <p>...oraz wiele innych moge wykonac dla Ciebie</p>
+                <h1>Grafika</h1>
+                <p>Wykonuję grafikę rastrową oraz wektorową. Jestem w stanie stworzyć dla Państwa nie tylko  logotypy ale także całe systemy grafiki firmowej, katalogi i ulotki, okładki i ilustracje.
+                </p>
+                <div class="slidercontainer">
+                <div id="slider"></div>
+                <span class="slidepointer" onclick="setSlide(1);">&#8226;</span>
+                <span class="slidepointer" onclick="setSlide(2);">&#8226;</span>
+                <span class="slidepointer" onclick="setSlide(3);">&#8226;</span>
+                <span class="slidepointer" onclick="setSlide(4);">&#8226;</span>
+                <span class="slidepointer" onclick="setSlide(5);">&#8226;</span>
                 </div>
-                <p>Potrzebujesz fotoreportażu? Zdjęć portretowych Ciebie bądź Twojego dziecka? Fotografii do galerii na stronie www Twojego przedsiębiorstwa? Projektu graficznego tej strony? Zaprojektowania szaty graficznej Twojej aplikacji? Wykonania grafik?
-                </p>
-                <p>Wszystkie powyższe mogę wykonać dla Ciebie w przystępnej cenie. Skontaktuj sie ze mna aby omówić szczegóły współpracy. Nie wymieniłam czegoś co potrzebujesz? Napisz do mnie, wykonuje także niestandardowe zlecenia z zakresu fotografii, grafiki rastrowej i wektorowej, obróbki zdjęć oraz web i ux designu.
-                </p>
             </section>
         </div>
         <div style="clear: both;"></div>
@@ -96,6 +99,40 @@
 
 
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript">
+
+	var number = Math.floor(Math.random()*5)+1;
+	var timer1 = 0;
+	var timer2  = 0;
+
+	function setSlide(slidenr)
+	{
+		clearTimeout(timer1);
+		clearTimeout(timer2);
+		number = slidenr -1;
+
+		fadeSlide();
+		setTimeout("changeSlide()", 500)
+	}
+	function fadeSlide()
+	{
+		$("#slider").fadeOut(500);
+	}
+
+	function changeSlide()
+	{
+		number++; if(number>5){number=1}
+
+		var plik ="<img src=\"img/graph/slajd"+number+".png\" />";
+
+		document.getElementById("slider").innerHTML = plik;
+		$("#slider").fadeIn(500);
+
+		timer1 = setTimeout("changeSlide()", 5000);
+		timer2 = setTimeout("fadeSlide()", 4500);
+	}
+
+	</script>
 
 </body>
 </html>

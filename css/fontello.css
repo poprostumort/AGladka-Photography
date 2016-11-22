@@ -69,5 +69,5 @@
 .icon-share:before { content: '\e80b'; font-size: 72px; margin-top: 30px;} /* '' */
 .icon-share-squared:before { content: '\e80c'; font-size: 72px; margin-top: 30px;} /* '' */
 .icon-play-circled2:before { content: '\e80d'; font-size: 72px; margin-top: 30px;} /* '' */
-.icon-play-circled:before { content: '\e80e'; font-size: 72px; margin-top: 30px;} /* '' */
+.icon-play-circled:before { content: '\e80e'; font-size: 72px; margin-top: 10px; margin-bottom: 10px;} /* '' */
 .icon-facebook-official:before { content: '\e80f'; font-size: 72px; margin-top: 30px;} /* '' */
